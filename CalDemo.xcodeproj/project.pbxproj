@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		336092D5213818A100DCBB35 /* CALayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CALayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		336092D5213818A100DCBB35 /* CalDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		336092D8213818A100DCBB35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		336092DA213818A100DCBB35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		336092DD213818A100DCBB35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		336092CC213818A100DCBB35 = {
 			isa = PBXGroup;
 			children = (
-				336092D7213818A100DCBB35 /* CALayerDemo */,
+				336092D7213818A100DCBB35 /* CalDemo */,
 				336092D6213818A100DCBB35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		336092D6213818A100DCBB35 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				336092D5213818A100DCBB35 /* CALayerDemo.app */,
+				336092D5213818A100DCBB35 /* CalDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		336092D7213818A100DCBB35 /* CALayerDemo */ = {
+		336092D7213818A100DCBB35 /* CalDemo */ = {
 			isa = PBXGroup;
 			children = (
 				336092D8213818A100DCBB35 /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				336092E1213818A200DCBB35 /* LaunchScreen.storyboard */,
 				336092E4213818A200DCBB35 /* Info.plist */,
 			);
-			path = CALayerDemo;
+			path = CalDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		336092D4213818A100DCBB35 /* CALayerDemo */ = {
+		336092D4213818A100DCBB35 /* CalDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 336092E7213818A200DCBB35 /* Build configuration list for PBXNativeTarget "CALayerDemo" */;
+			buildConfigurationList = 336092E7213818A200DCBB35 /* Build configuration list for PBXNativeTarget "CalDemo" */;
 			buildPhases = (
 				336092D1213818A100DCBB35 /* Sources */,
 				336092D2213818A100DCBB35 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = CALayerDemo;
+			name = CalDemo;
 			productName = CALayerDemo;
-			productReference = 336092D5213818A100DCBB35 /* CALayerDemo.app */;
+			productReference = 336092D5213818A100DCBB35 /* CalDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 336092D0213818A100DCBB35 /* Build configuration list for PBXProject "CALayerDemo" */;
+			buildConfigurationList = 336092D0213818A100DCBB35 /* Build configuration list for PBXProject "CalDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				336092D4213818A100DCBB35 /* CALayerDemo */,
+				336092D4213818A100DCBB35 /* CalDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SL793MRC83;
-				INFOPLIST_FILE = CALayerDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CalDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Frei.CALayerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Frei.CalDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +301,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SL793MRC83;
-				INFOPLIST_FILE = CALayerDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CalDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Frei.CALayerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Frei.CalDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		336092D0213818A100DCBB35 /* Build configuration list for PBXProject "CALayerDemo" */ = {
+		336092D0213818A100DCBB35 /* Build configuration list for PBXProject "CalDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				336092E5213818A200DCBB35 /* Debug */,
@@ -324,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		336092E7213818A200DCBB35 /* Build configuration list for PBXNativeTarget "CALayerDemo" */ = {
+		336092E7213818A200DCBB35 /* Build configuration list for PBXNativeTarget "CalDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				336092E8213818A200DCBB35 /* Debug */,
